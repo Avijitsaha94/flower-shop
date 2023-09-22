@@ -1,7 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif; 
+font-family: 'Poppins', sans-serif;
 }
 .container{
-    color: aqua;
+    display: flex;
+
+ height: 100vh;
+ 
+    
+background: rgba(229, 84, 115, 0.10); 
+
+    
+}
+.container-ditails{
+     padding: 190px 100px;
+
+}
+.container-title{
+    font-family: sans-serif;
+ font-size: 50px;
+font-weight: 800;
+/* margin: 190px 240px; */
+
+}
+.container-describe{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin: 30px 0px;
+}
+.first-btn{
+    border-radius: 8px;
+background: #E55473;
+box-shadow: 0px 4px 4px 0px;
+border: none;
+display: inline-flex;
+color:white ;
+height: 64px;
+padding: 20px 43px;
+justify-content: center;
+align-items: center;
+}
+.second-btn{
+    border-radius: 8px;
+background: #E55473;
+
+border: none;
+display: inline-flex;
+color:white ;
+height: 64px;
+margin-top: 30px;
+padding: 20px 35px;
+justify-content: center;
+align-items: center;
+}
+.banner-img{
+    width: 500px;
+}
+.side-img{
+    margin: 50px 80px;
+    
+    /* padding: 50px 250px; */
+}
+
+.hot-deal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10); 
+margin-top: 10px;
+}
+.test-off{
+    color: #E55473;
 }
